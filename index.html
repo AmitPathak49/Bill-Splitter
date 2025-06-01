@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="bill-input">
+            <p>Bill Amount</p>
+            <div class="input-container">
+                <span>₹</span>
+                <input type="number" id="bill-amount" placeholder="Enter bill amount" required>
+            </div>
+            <p>Select Tip</p>
+            <div class="tip-container">
+                <div class="tip">5%</div>
+                <div class="tip">10%</div>
+                <div class="tip">15%</div>
+                <div class="tip">20%</div>
+                <div class="tip">25%</div>
+                <div class="tip">30%</div>
+            </div>
+            <input class="custom-tip grey-input" type="number" placeholder="Custom Tip in percentage">
+                <p>Number Of People</p>
+            <input class="number-of-people grey-input" type="number" placeholder="Number of People">
+            <button class="generate-bill-btn">Generate Bill</button>
+            <!-- <p>Bill Amount</p>
+            <div class="input-container">
+                <span>₹</span>
+                <input type="number" id="bill" placeholder="Enter bill amount" required>
+            </div> -->
+        </div>
+        <div class="bill-output">
+            <p class="tip-amount">Tip amount : <span></span></p>
+            <p class="total-amount">Total : <span></span></p>
+            <p class="each-person-bill">Each person bill : <span></span></p>
+            <button class="reset-btn" disabled >Reset</button>
+        </div>
+        <!-- <div class="footer">
+            <p>Bill Splitter App – Helping you share expenses fairly. </p> -->
+    </main>
+</body>
+</html>
